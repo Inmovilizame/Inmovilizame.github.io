@@ -1,0 +1,20 @@
+{
+  "name": "inmovimer",
+  "version": "0.0.0",
+  "homepage": "http://inmovilizame.github.io/polymer",
+  "authors": [
+    "Roi Rodríguez <info@inmoviliza.me>"
+  ],
+  "description": "Test app using polymer",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0"
+  }
+}

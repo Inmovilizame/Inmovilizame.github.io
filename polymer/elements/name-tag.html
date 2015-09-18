@@ -1,0 +1,20 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<dom-module id="name-tag">
+
+  <template>
+    <!-- bind to the "owner" property -->
+    <p>This is <b>{{owner}}</b>'s name-tag element.</p>
+  </template>
+
+  <script>
+  Polymer({
+    is: "name-tag",
+    ready: function() {
+      // set this element's owner property
+      this.owner = "Daniel";
+    }
+  });
+  </script>
+
+</dom-module>
