@@ -5,11 +5,12 @@
   <template>
     <!-- scoped CSS for this element -->
     <style>
-      div {
-        display: inline-block;
-        background-color: #ccc;
-        border-radius: 8px;
-        padding: 4px;
+      :host {
+          --my-toolbar-color: #ccc;
+          display: inline-block;
+          background-color: var(--my-toolbar-color);
+          border-radius: 8px;
+          padding: 4px;
       }
     </style>
     <div>
@@ -20,7 +21,17 @@
 
   <script>
     Polymer({
-      is: "picture-frame",
+        is: "picture-frame",
+        properties: {
+            color: {
+                type: String,
+                value: "ccc"
+            }
+        },
+        ready: function() {
+            this.customStyle['--my-toolbar-color'] = '#' + this.color;
+            this.updateStyles();
+        }
     });
   </script>
 
