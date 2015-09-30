@@ -1,0 +1,26 @@
+{
+  "name": "velocimetro",
+  "version": "0.0.0",
+  "homepage": "http://inmovilizame.github.io/velocimetro/",
+  "authors": [
+    "Roi Rodríguez <info@inmoviliza.me>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bower": "*",
+    "firebase-element": "GoogleWebComponents/firebase-element#~1.0.6",
+    "gold-elements": "PolymerElements/gold-elements#~1.0.1",
+    "google-chart": "GoogleWebComponents/google-chart#~1.0.2",
+    "install": "~1.0.4",
+    "iron-elements": "PolymerElements/iron-elements#~1.0.3",
+    "paper-elements": "PolymerElements/paper-elements#~1.0.5",
+    "polymer": "Polymer/polymer#^1.1.0"
+  }
+}

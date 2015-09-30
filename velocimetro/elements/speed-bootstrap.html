@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="import" href="../bower_components/polymer/polymer.html">
+    <link rel="import" href="../bower_components/firebase-element/firebase-document.html">
+    <link rel="import" href="../bower_components/paper-item/paper-item.html">
+</head>
+
+<dom-module id="speed-bootstrap">
+  <style>
+    :host {
+      display: block;
+    }
+  </style>
+  <template>
+      <firebase-document
+          id="base"
+          location="https://velocimetro.firebaseio.com/speeds"
+          data="{{speeds}}"></firebase-document>
+  </template>
+
+  <script>
+  Polymer({
+      is: "speed-bootstrap",
+      ready: function() {
+          console.log(this.$.base);
+          console.log(this.$.base.dataAsObject());
+          /*var day = new Date('2015-09-23T01:10:37');
+          var measure = this.$.base.add({
+          time: day.getTime(),
+          bilbao: {down: 80.08, up: 7.60, ping: 72.227},
+          ovideo: {down: 79.54, up: 9.09, ping: 69.885},
+          gijon:  {down: 56.24, up: 8.61, ping: 67.615}
+      });*/
+  },
+  });
+  </script>
+</dom-module>

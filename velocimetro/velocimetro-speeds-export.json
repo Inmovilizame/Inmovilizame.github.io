@@ -1,0 +1,107 @@
+{
+  "-JzwbMgiXQBRtFcP8LlA" : {
+    "bilbao" : {
+      "down" : 68.97,
+      "ping" : 87.475,
+      "up" : 9.35
+    },
+    "gijon" : {
+      "down" : 75.4,
+      "ping" : 60.17,
+      "up" : 9.47
+    },
+    "ovideo" : {
+      "down" : 66.96,
+      "ping" : 90.134,
+      "up" : 9.33
+    },
+    "time" : 1442620089000,
+    "average_down": 70.44,
+    "average_ping": 79.26,
+    "average_up": 9.38
+  },
+  "-JzwcIVuh6mpQilr62wC" : {
+    "bilbao" : {
+      "down" : 72.52,
+      "ping" : 100.134,
+      "up" : 9.67
+    },
+    "gijon" : {
+      "down" : 62.86,
+      "ping" : 122.499,
+      "up" : 8.78
+    },
+    "ovideo" : {
+      "down" : 68.54,
+      "ping" : 114.971,
+      "up" : 9.39
+    },
+    "time" : 1442623414000,
+    "average_down": 68.97,
+    "average_ping": 112.603,
+    "average_up": 9.28
+  },
+  "-JzwctXAOTlmFamcC-tk" : {
+    "bilbao" : {
+      "down" : 76.03,
+      "ping" : 94.711,
+      "up" : 9.45
+    },
+    "gijon" : {
+      "down" : 78.78,
+      "ping" : 91.672,
+      "up" : 9.55
+    },
+    "ovideo" : {
+      "down" : 70.94,
+      "ping" : 118.982,
+      "up" : 9.53
+    },
+    "time" : 1442722097000,
+    "average_down": 75.25,
+    "average_ping": 152.682,
+    "average_up": 9.51
+  },
+  "-Jzwe2RwOOkdtWttiu_3" : {
+    "bilbao" : {
+      "down" : 64.88,
+      "ping" : 103.692,
+      "up" : 9.53
+    },
+    "gijon" : {
+      "down" : 36.72,
+      "ping" : 115.813,
+      "up" : 9.55
+    },
+    "ovideo" : {
+      "down" : 54.27,
+      "ping" : 120.231,
+      "up" : 7.18
+    },
+    "time" : 1443043573000,
+    "average_down": 51.96,
+    "average_ping": 113.245,
+    "average_up": 8.75
+  },
+  "-JzwecnA3WLpJ_3fcyjP" : {
+    "bilbao" : {
+      "down" : 80.08,
+      "ping" : 72.227,
+      "up" : 7.6
+    },
+    "gijon" : {
+      "down" : 56.24,
+      "ping" : 67.615,
+      "up" : 8.61
+    },
+    "ovideo" : {
+      "down" : 79.54,
+      "ping" : 69.885,
+      "up" : 9.09
+    },
+    "time" : 1442970637000,
+    "average_down": 71.95,
+    "average_ping": 69.909,
+    "average_up": 8.43
+  }
+}
